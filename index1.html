@@ -1,17 +1,49 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <link rel="stylesheet" href="game2.css">
+<html>
+<head lang="en">
+<meta charset="UTF-8">
+
+<title>Quiz</title>
+<link rel="stylesheet" type="text/css" href="game.css">
+<!-- <audio class="audioo" controls autoplay>
+        <source src="Sm3ha.Com.mp3" type="audio/mpeg"></audio> -->
 </head>
 <body>
-    <h1>Are you a programmer?</h1>
-    <h2>I hope you enjoy the quiz, It's for you!</h2>
-    <button  type="button">  <a href='index.html'> 
-                Satrt your quiz now</a></button> 
-                
+            <embed src ="Sm3ha.Com.mp3" autostart="true" style="width: 0;height: 0;">
+
+<div class="grid">
+<div id="quiz">
+<h1>Simple quiz </h1>
+<hr style="margin-bottom: 20px">
+ 
+<p id="question"></p>
+ 
+<div class="buttons">
+<button id="btn0"><span id="choice0"></span></button>
+<button id="btn1"><span id="choice1"></span></button>
+<button id="btn2"><span id="choice2"></span></button>
+<button id="btn3"><span id="choice3"></span></button>
+</div>
+
+ 
+<hr style="margin-top: 50px">
+<footer>
+<p id="progress">Question x of y</p>
+</footer>
+</div>
+</div>
+<form>
+                <div class="controls">
+            
+                    <input type="reset" value="Reset">
+            
+                </div>
+            </form>
+ 
+<!-- <audio class="audioo" controls autoplay>
+        <source src="Sm3ha.Com.mp3" type="audio/mpeg"></audio> -->
+<script src="main.js"></script>
+ 
 </body>
+<!-- <script src="jquery-3.4.1.min.js"></script> -->
 </html>
